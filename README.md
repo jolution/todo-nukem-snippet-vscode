@@ -1,13 +1,11 @@
 
-<p align="center">
-    <img alt="Shows the banner of TODO NUKEM, with its logo" src="https://github.com/jolution/todo-nukem/blob/main/resources/svg/todonukem.svg" width="700">
-</p>
+[//]: # (<p align="center">)
+[//]: # (    <img alt="Shows the banner of TODO NUKEM, with its logo" src="https://github.com/jolution/todo-nukem/blob/main/resources/svg/todonukem.svg" width="700">)
+[//]: # (</p>)
 
-<div align="center">
-
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
-
-</div>
+[//]: # (<div align="center">)
+[//]: # ([![Conventional Commits]&#40;https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white&#41;]&#40;https://conventionalcommits.org&#41;)
+[//]: # (</div>)
 
 # Coding Comments Snippets
 
@@ -20,6 +18,20 @@ A snippet extension for generation TODO messages with emojis for easier comprehe
 #### Generate Comment
 
 ![generate-demo.gif](https://github.com/jolution/todo-nukem/blob/main/resources/gif/generate-demo.gif)
+
+
+## Installation Development Preview
+
+- 1: Download the files
+- 2: Run in terminal:
+
+```bash
+  npm run package
+```
+
+- 3: Open Folder in Vscode
+- 4: Press F5 (on mac fn+F5)
+- 5: start type "todo" and press Tab
 
 ## ❤️ Support
 
