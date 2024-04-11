@@ -20,7 +20,7 @@ A snippet extension for generation TODO messages with emojis for easier comprehe
 ![generate-demo.gif](https://github.com/jolution/todo-nukem/blob/main/resources/gif/generate-demo.gif)
 
 
-## Installation Development Preview
+## 📰 Installation Development Preview
 
 - 1: Download the files
 - 2: Run in terminal:
