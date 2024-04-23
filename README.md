@@ -35,8 +35,9 @@ We do not currently offer direct support for this project.
 
 ## 🗺️ Roadmap
 
-- Publish this package to the Visual Studio Extension Store
-- Add optional block support
+- [x] Publish this package to the Visual Studio Extension Store
+- [ ] Add optional block support
+- [ ] Add combination of Emoji and Text support
 
 ### ✍️ Authors (in alphabetical order)
 
