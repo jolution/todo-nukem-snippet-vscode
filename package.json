@@ -1,12 +1,12 @@
 {
   "name": "todo-nukem-snippet-vscode",
-  "displayName": "todo-nukem-snippets",
+  "displayName": "TODO NUKEM Snippets",
   "publisher": "jolution",
   "repository": "https://github.com/jolution/todo-nukem-snippet-vscode",
   "bugs": "https://github.com/jolution/todo-nukem/issues",
   "icon": "images/icon.png",
-  "description": "",
-  "version": "0.0.1",
+  "description": "Snippets for TODO NUKEM Convention",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.88.0"
   },
