@@ -1,7 +1,7 @@
 <p align="center">
     <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jolution/todo-nukem/blob/main/resources/png/todonukem-light.png">
-        <source media="(prefers-color-scheme: light)" srcset="https://github.com/jolution/todo-nukem/blob/main/resources/png/todonukem-dark.png">
+        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jolution/todo-nukem/blob/main/resources/png/todonukem-dark.png">
+        <source media="(prefers-color-scheme: light)" srcset="https://github.com/jolution/todo-nukem/blob/main/resources/png/todonukem-light.png">
         <img alt="Shows the banner of TODO NUKEM, with its logo" src="https://github.com/jolution/todo-nukem/blob/main/resources/png/todonukem-dark.png" width="700">
     </picture>
 </p>
