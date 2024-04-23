@@ -5,8 +5,12 @@
   "repository": "https://github.com/jolution/todo-nukem-snippet-vscode",
   "bugs": "https://github.com/jolution/todo-nukem/issues",
   "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#e8bf28",
+    "theme": "dark"
+  },
   "description": "Snippets for TODO NUKEM Convention",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.88.0"
   },
@@ -14,6 +18,12 @@
   "categories": [
     "Snippets",
     "Other"
+  ],
+  "tags": [
+    "typescript",
+    "javascript",
+    "snippet",
+    "documentation"
   ],
   "scripts": {
     "package": "npx vsce package",
