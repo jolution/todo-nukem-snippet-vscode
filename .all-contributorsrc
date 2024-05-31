@@ -15,7 +15,16 @@
       "contributions": [
         "design"
       ]
-    }
+    },{
+           "login": "juliankasimir",
+           "name": "Julian Kasimir",
+           "avatar_url": "https://avatars.githubusercontent.com/u/120172350?v=4",
+           "profile": "https://github.com/juliankasimir",
+           "contributions": [
+             "ideas",
+             "code"
+           ]
+         }
   ],
   "contributorsPerLine": 7,
   "skipCi": true,
