@@ -1,5 +1,4 @@
 <p align="center">
-
     <picture>
         <source media="(prefers-color-scheme: dark)" srcset="./images/todonukem-dark.png">
         <source media="(prefers-color-scheme: light)" srcset="./images/todonukem-light.png">
