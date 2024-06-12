@@ -28,6 +28,23 @@ A snippet extension for generation TODO messages with emojis for easier comprehe
 
 Install this extension from the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=jolution.todo-nukem-snippet-vscode)
 
+## ✨ Supported Languages
+
+_Defined in the ```package.json``` file, the following languages are supported with either line or block comments:_
+
+### Line Comment:
+```TypeScript, JavaScript```
+
+### Block Comment:
+```CSS, PostCSS, SCSS, Less, HTML, Python, Java, C#, C++, Ruby, Swift, PHP, Go, Rust, Dart, Perl, Lua, Shell Script```
+
+For example, CSS uses block comments like ```/* ... */ ```.
+
+And TypeScript could use line comments like ```// ... ```.
+
+
+**If a language you need is missing, feel free to open a PR and contribute!**
+
 ## ❤️ Support
 
 If you find this project helpful, please consider giving it the Convention Repo a star on [GitHub](https://github.com/jolution/todo-nukem).
@@ -41,6 +58,14 @@ We do not currently offer direct support for this project.
 - [x] Publish this package to the Visual Studio Extension Store
 - [ ] Add optional block support
 - [ ] Add combination of Emoji and Text support
+
+## 💎 Sponsor
+
+### Eviden
+
+We appreciate the support from [Eviden](https://eviden.com), helping us continue our open source work.
+
+<img style="max-width: 100px" width="100" src="https://raw.githubusercontent.com/DE-AMS-AD-VAPPS/brand/main/assets/eviden-logo.svg" alt="Eviden logo.">
 
 ### ✍️ Authors (in alphabetical order)
 
