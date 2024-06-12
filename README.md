@@ -28,6 +28,13 @@ A snippet extension for generation TODO messages with emojis for easier comprehe
 
 Install this extension from the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=jolution.todo-nukem-snippet-vscode)
 
+## 🚀 Usage
+
+In supported languages, you can type "todo" or "fixme" and then press the Tab key to activate the different options.
+
+```todo ⇥```
+```fixme ⇥```
+
 ## ✨ Supported Languages
 
 _Defined in the ```package.json``` file, the following languages are supported with either line or block comments:_
