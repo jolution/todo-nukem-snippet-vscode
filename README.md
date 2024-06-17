@@ -52,6 +52,25 @@ And TypeScript could use line comments like ```// ... ```.
 
 **If a language you need is missing, feel free to open a PR and contribute!**
 
+## ❓FAQ
+
+<details>
+<summary>How can I enable snippet suggestions in comments in VSCode?</summary>
+<p>By default, snippet suggestions are not active in comments in VSCode. If you want to enable this feature, you need to adjust your settings.
+
+In User Settings search for `quickSuggestions` and enable the following options:
+
+```json
+"editor.quickSuggestions": {
+    "comments": true,
+    "strings": true
+}
+```
+</p>
+</details>
+
+For more questions and answers, please visit our [Q&A Discussions](https://github.com/jolution/todo-nukem/discussions/categories/q-a).
+
 ## ❤️ Support
 
 If you find this project helpful, please consider giving it the Convention Repo a star on [GitHub](https://github.com/jolution/todo-nukem).
@@ -64,7 +83,7 @@ We do not currently offer direct support for this project.
 
 - [x] Publish this package to the Visual Studio Extension Store
 - [ ] Add optional block support
-- [ ] Add combination of Emoji and Text support
+- [ ] Add a combination of Emoji and Text support
 
 ## 💎 Sponsor
 
