@@ -1,12 +1,12 @@
 {
     "TODO NUKEM Emmet Snippets": {
         "prefix": ["todo"],
-        "body": "$BLOCK_COMMENT_START TODO: ${1|🟩,🟨,🟥|} ${2|✨,🐛|} ${3|🎨,📝,🧪,🚀,🌐,🛡️,🔄,🛠,👀|} ${0} $BLOCK_COMMENT_END",
+        "body": "$BLOCK_COMMENT_START TODO: ${1|🟩,🔶,🔴|} ${2|✨,🐛|} ${3|🎨,📝,🧪,🚀,🌐,🛡️,🔄,🛠,👀|} ${0} $BLOCK_COMMENT_END",
         "description": "Emmet Snippet for TODO"
     },
     "TODO NUKEM Fixme": {
         "prefix": ["fixme"],
-        "body": "$BLOCK_COMMENT_START FIXME: ${1|🟩,🟨,🟥|} 🐛 ${3|🎨,📝,🧪,🚀,🌐,🛡️,🔄,🛠,👀|} $4 ${5|🎨,📝,🧪,🚀,🌐,🛡,🔄,🛠,👀|} ${0} $BLOCK_COMMENT_END",
+        "body": "$BLOCK_COMMENT_START FIXME: ${1|🟩,🔶,🔴|} 🐛 ${3|🎨,📝,🧪,🚀,🌐,🛡️,🔄,🛠,👀|} $4 ${5|🎨,📝,🧪,🚀,🌐,🛡,🔄,🛠,👀|} ${0} $BLOCK_COMMENT_END",
         "description": "Emmet Snippet for FIXME"
     },
 	"TODO NUKEM Scope": {
