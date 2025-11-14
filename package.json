@@ -1,6 +1,7 @@
 {
-  "name": "todo-nukem-snippet-vscode",
-  "displayName": "TODO NUKEM Snippets",
+  "name": "todo-nukem-generator-vscode",
+  "displayName": "TODO NUKEM Generator",
+  "author": "jolution",
   "publisher": "jolution",
   "repository": "https://github.com/jolution/todo-nukem-snippet-vscode",
   "bugs": "https://github.com/jolution/todo-nukem/issues",
@@ -9,8 +10,8 @@
     "color": "#e8bf28",
     "theme": "dark"
   },
-  "description": "Snippets for TODO NUKEM Convention",
-  "version": "0.0.4",
+  "description": "Generator for TODO NUKEM Convention",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.88.0"
   },
@@ -19,6 +20,8 @@
     "Snippets",
     "Other"
   ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
   "tags": [
     "typescript",
     "javascript",
@@ -26,16 +29,21 @@
     "documentation"
   ],
   "scripts": {
+    "prepublish": "npm run compile",
     "package": "npx vsce package",
     "publish": "npx vsce publish",
     "postinstall": "node ./node_modules/vscode/bin/install",
-    "open-in-browser": "vscode-test-web --extensionDevelopmentPath=. ."
-  },
-  "devDependencies": {
-    "@types/node": "^20.12.7",
-    "@types/vscode": "^1.88.0"
+    "open-in-browser": "vscode-test-web --extensionDevelopmentPath=. .",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
   },
   "contributes": {
+    "commands": [
+      {
+        "command": "todo-nukem-inserter.insertTodo",
+        "title": "Insert TODO NUKEM Comment"
+      }
+    ],
     "snippets": [
       {
         "language": "typescript",
@@ -120,6 +128,12 @@
     ]
   },
   "dependencies": {
-    "@vscode/vsce": "^2.24.0"
+    "@vscode/vsce": "^3.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/vscode": "^1.88.0",
+    "@vscode/test-web": "^0.0.75",
+    "typescript": "^5.9.3"
   }
 }

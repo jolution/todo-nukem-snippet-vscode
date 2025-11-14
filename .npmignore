@@ -1,0 +1,29 @@
+# Source files
+src/
+tsconfig.json
+.vscode/
+.vscode-test/
+.vscode-test-web/
+
+# Git files
+.git/
+.gitignore
+.gitattributes
+
+# Development files
+node_modules/
+*.log
+.DS_Store
+.history/
+.idea/
+
+# CI/CD
+.github/
+
+# Testing
+test/
+*.test.ts
+*.spec.ts
+
+# Misc
+*.vsix

@@ -2,3 +2,9 @@ node_modules
 *.vsix
 .history
 .idea
+.DS_Store
+out
+*.log
+.vscode-test
+.vscode-test-web
+dist
