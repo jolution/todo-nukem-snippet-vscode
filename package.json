@@ -3,7 +3,7 @@
   "displayName": "TODO NUKEM Generator",
   "author": "jolution",
   "publisher": "jolution",
-  "repository": "https://github.com/jolution/todo-nukem-snippet-vscode",
+  "repository": "https://github.com/jolution/todo-nukem-generator-vscode",
   "bugs": "https://github.com/jolution/todo-nukem/issues",
   "icon": "images/icon.png",
   "galleryBanner": {
@@ -11,7 +11,7 @@
     "theme": "dark"
   },
   "description": "Generator for TODO NUKEM Convention",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.88.0"
   },

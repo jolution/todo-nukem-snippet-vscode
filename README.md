@@ -6,49 +6,77 @@
     </picture>
 </p>
 
-# Coding Comments Snippets
+# TODO NUKEM - Coding Comments Generator
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
-[![GitHub Marketplace](https://img.shields.io/badge/Marketplace-Snippet-blue.svg?colorA=24292e&colorB=0366d6&style=flat&longCache=true&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAM6wAADOsB5dZE0gAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAERSURBVCiRhZG/SsMxFEZPfsVJ61jbxaF0cRQRcRJ9hlYn30IHN/+9iquDCOIsblIrOjqKgy5aKoJQj4O3EEtbPwhJbr6Te28CmdSKeqzeqr0YbfVIrTBKakvtOl5dtTkK+v4HfA9PEyBFCY9AGVgCBLaBp1jPAyfAJ/AAdIEG0dNAiyP7+K1qIfMdonZic6+WJoBJvQlvuwDqcXadUuqPA1NKAlexbRTAIMvMOCjTbMwl1LtI/6KWJ5Q6rT6Ht1MA58AX8Apcqqt5r2qhrgAXQC3CZ6i1+KMd9TRu3MvA3aH/fFPnBodb6oe6HM8+lYHrGdRXW8M9bMZtPXUji69lmf5Cmamq7quNLFZXD9Rq7v0Bpc1o/tp0fisAAAAASUVORK5CYII=)](https://marketplace.visualstudio.com/items?itemName=jolution.todo-nukem-snippet-vscode)
+[![GitHub Marketplace](https://img.shields.io/badge/Marketplace-Generator-blue.svg?colorA=24292e&colorB=0366d6&style=flat&longCache=true&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAM6wAADOsB5dZE0gAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAERSURBVCiRhZG/SsMxFEZPfsVJ61jbxaF0cRQRcRJ9hlYn30IHN/+9iquDCOIsblIrOjqKgy5aKoJQj4O3EEtbPwhJbr6Te28CmdSKeqzeqr0YbfVIrTBKakvtOl5dtTkK+v4HfA9PEyBFCY9AGVgCBLaBp1jPAyfAJ/AAdIEG0dNAiyP7+K1qIfMdonZic6+WJoBJvQlvuwDqcXadUuqPA1NKAlexbRTAIMvMOCjTbMwl1LtI/6KWJ5Q6rT6Ht1MA58AX8Apcqqt5r2qhrgAXQC3CZ6i1+KMd9TRu3MvA3aH/fFPnBodb6oe6HM8+lYHrGdRXW8M9bMZtPXUji69lmf5Cmamq7quNLFZXD9Rq7v0Bpc1o/tp0fisAAAAASUVORK5CYII=)](https://marketplace.visualstudio.com/items?itemName=jolution.todo-nukem-generator-vscode)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 **Working Draft**
 
-A snippet extension for generation TODO messages with emojis for easier comprehension and organization, see [TODO NUKEM Convention](https://github.com/jolution/todo-nukem/blob/main/README.md).
+A VS Code extension for generating structured TODO comments with emojis following the [TODO NUKEM Convention](https://github.com/jolution/todo-nukem/blob/main/README.md). Combines both **interactive command-based generation** and **quick snippets** for maximum flexibility.
 
-### 🎬 Demo
+<!-- ### 🎬 Demo -->
 
-#### Generate Comment
-
-![generate-demo.gif](./images/generate-demo.gif)
+<!-- #### Generate Comment -->
+<!-- ![generate-demo.gif](./images/generate-demo.gif) -->
 
 ## 📰 Installation
 
-Install this extension from the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=jolution.todo-nukem-snippet-vscode)
+Install this extension from the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=jolution.todo-nukem-generator-vscode)
 
 ## 🚀 Usage
 
-In supported languages, you can type "todo" or "fixme" and then press the Tab key to activate the different options.
+This extension offers **two ways** to create TODO NUKEM comments:
+
+### 1. 🎯 Interactive Command (Recommended)
+
+Open the Command Palette (`Cmd+Shift+P` or `Ctrl+Shift+P`) and search for:
+
+```
+Insert TODO NUKEM Comment
+```
+
+Follow the guided prompts:
+
+1. **Priority**: 🟩 Low / 🔶 Medium / 🔴 High
+2. **Type**: ✨ Feature / 🐛 Fix
+3. **Context**: 🎨 Design / 📚 Doc / 🧪 Test / ⚡ Perf / etc.
+4. **Message**: Your TODO description
+5. **Meta Blocks** (optional): 💬 TBD / 🎯 Scope / 🎫 Ticket / 📅 Until / etc.
+
+**Example output:**
+
+```typescript
+// TODO: 🔴 ✨ 🎨 Refactor button component [🎫 JIRA-123] [📅 2025-12-31]
+```
+
+### 2. ⚡ Quick Snippets
+
+In supported languages, type `todo` or `fixme` and press `Tab` to activate snippet templates:
 
 ```todo ⇥```
 ```fixme ⇥```
+
+This provides pre-defined templates for quick TODO insertion.
 
 ## ✨ Supported Languages
 
 _Defined in the ```package.json``` file, the following languages are supported with either line or block comments:_
 
-### Line Comment:
+### Line Comment
+
 ```TypeScript, JavaScript```
 
-### Block Comment:
+### Block Comment
+
 ```CSS, PostCSS, SCSS, Less, HTML, Python, Java, C#, C++, Ruby, Swift, PHP, Go, Rust, Dart, Perl, Lua, Shell Script```
 
-For example, CSS uses block comments like ```/* ... */ ```.
+For example, CSS uses block comments like ```/* ... */```.
 
-And TypeScript could use line comments like ```// ... ```.
-
+And TypeScript could use line comments like ```// ...```.
 
 **If a language you need is missing, feel free to open a PR and contribute!**
 
@@ -66,6 +94,7 @@ In User Settings search for `quickSuggestions` and enable the following options:
     "strings": true
 }
 ```
+
 </p>
 </details>
 
@@ -79,17 +108,11 @@ If you find this project helpful, please consider giving it the Convention Repo 
 
 We do not currently offer direct support for this project.
 
-## 🗺️ Roadmap
-
-- [x] Publish this package to the Visual Studio Extension Store
-- [ ] Add optional block support
-- [ ] Add a combination of Emoji and Text support
-
 ## 💎 Sponsor
 
-### Eviden
+### Atos
 
-We appreciate the support from [Eviden](https://eviden.com), helping us continue our open source work.
+We appreciate the support from [Atos](https://atos.net), helping us continue our open source work.
 
 ### ✍️ Authors (in alphabetical order)
 
