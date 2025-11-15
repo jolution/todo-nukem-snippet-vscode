@@ -36,7 +36,7 @@ This extension offers **two ways** to create TODO NUKEM comments:
 Open the Command Palette (`Cmd+Shift+P` or `Ctrl+Shift+P`) and search for:
 
 ```
-Insert TODO NUKEM Comment
+TODO NUKEM Comment
 ```
 
 Follow the guided prompts:
@@ -99,6 +99,24 @@ In User Settings search for `quickSuggestions` and enable the following options:
 </details>
 
 For more questions and answers, please visit our [Q&A Discussions](https://github.com/jolution/todo-nukem/discussions/categories/q-a).
+
+## 🔗 Related Tools
+
+### ESLint Plugin
+
+For best results, combine this extension with the **TODO NUKEM ESLint plugin** to enforce the convention in your codebase:
+
+[![eslint-plugin-todo-nukem](https://img.shields.io/npm/v/eslint-plugin-todo-nukem?label=eslint-plugin-todo-nukem&logo=eslint)](https://github.com/jolution/eslint-plugin-todo-nukem)
+
+The ESLint plugin validates that your TODO comments follow the TODO NUKEM Convention and can auto-fix formatting issues.
+
+```bash
+npm install --save-dev @jolution/eslint-plugin-todo-nukem
+```
+
+**Learn more:**  
+[GitHub Repository](https://github.com/jolution/eslint-plugin-todo-nukem)  
+[npm Package](https://www.npmjs.com/package/@jolution/eslint-plugin-todo-nukem)
 
 ## ❤️ Support
 

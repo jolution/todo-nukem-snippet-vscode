@@ -11,7 +11,7 @@
     "theme": "dark"
   },
   "description": "Generator for TODO NUKEM Convention",
-  "version": "1.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.88.0"
   },
@@ -41,7 +41,7 @@
     "commands": [
       {
         "command": "todo-nukem-inserter.insertTodo",
-        "title": "Insert TODO NUKEM Comment"
+        "title": "TODO NUKEM Comment"
       }
     ],
     "snippets": [
