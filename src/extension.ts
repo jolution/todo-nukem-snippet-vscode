@@ -72,7 +72,6 @@ export function activate(context: vscode.ExtensionContext) {
                 { label: '🈷️ Lang', symbol: '🈷️' },
                 { label: '🔒 Sec', symbol: '🔒' },
                 { label: '🔄 Update', symbol: '🔄' },
-                { label: '🔄 Update', symbol: '🔄' },
                 { label: '🛠️ Optimize', symbol: '🛠️' },
                 { label: '👀 Review', symbol: '👀' }
             ],
